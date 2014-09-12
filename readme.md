@@ -2,7 +2,7 @@ Files for Getting and Cleaning Data Course Project (Coursera, John Hopkins)
 
 `run_analysis.R` script performs these operations:
 
-- Download data, unzip and delete zip file
+- Download data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, extract files and delete zip file
 - load data from several files (train data, test data, subjects, activities)
 - merge train and test datasets in 3 dataframes: xData, yData, subjects
 - obtain indexes for mean and std related variables ["Extracts only the measurements on the mean and standard deviation for each measurement."]
