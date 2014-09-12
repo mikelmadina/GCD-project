@@ -1,4 +1,96 @@
-# Information about the variables in the data set not contained in the tidy data
+# Information about the variables in the TIDY data set
+
+## `tidyData.csv` file
+
+The variables of the tidy data set are a subset of the variables from the raw datasets (more information below). The subset criteria: "Extract only the measurements on the mean and standard deviation for each measurement [of the raw data]"
+
+- tBodyAccmeanX
+- tBodyAccmeanY
+- tBodyAccmeanZ
+- tBodyAccstdX
+- tBodyAccstdY
+- tBodyAccstdZ
+- tGravityAccmeanX
+- tGravityAccmeanY
+- tGravityAccmeanZ
+- tGravityAccstdX
+- tGravityAccstdY
+- tGravityAccstdZ
+- tBodyAccJerkmeanX
+- tBodyAccJerkmeanY
+- tBodyAccJerkmeanZ
+- tBodyAccJerkstdX
+- tBodyAccJerkstdY
+- tBodyAccJerkstdZ
+- tBodyGyromeanX
+- tBodyGyromeanY
+- tBodyGyromeanZ
+- tBodyGyrostdX
+- tBodyGyrostdY
+- tBodyGyrostdZ
+- tBodyGyroJerkmeanX
+- tBodyGyroJerkmeanY
+- tBodyGyroJerkmeanZ
+- tBodyGyroJerkstdX
+- tBodyGyroJerkstdY
+- tBodyGyroJerkstdZ
+- tBodyAccMagmean
+- tBodyAccMagstd
+- tGravityAccMagmean
+- tGravityAccMagstd
+- tBodyAccJerkMagmean
+- tBodyAccJerkMagstd
+- tBodyGyroMagmean
+- tBodyGyroMagstd
+- tBodyGyroJerkMagmean
+- tBodyGyroJerkMagstd
+- fBodyAccmeanX
+- fBodyAccmeanY
+- fBodyAccmeanZ
+- fBodyAccstdX
+- fBodyAccstdY
+- fBodyAccstdZ
+- fBodyAccmeanFreqX
+- fBodyAccmeanFreqY
+- fBodyAccmeanFreqZ
+- fBodyAccJerkmeanX
+- fBodyAccJerkmeanY
+- fBodyAccJerkmeanZ
+- fBodyAccJerkstdX
+- fBodyAccJerkstdY
+- fBodyAccJerkstdZ
+- fBodyAccJerkmeanFreqX
+- fBodyAccJerkmeanFreqY
+- fBodyAccJerkmeanFreqZ
+- fBodyGyromeanX
+- fBodyGyromeanY
+- fBodyGyromeanZ
+- fBodyGyrostdX
+- fBodyGyrostdY
+- fBodyGyrostdZ
+- fBodyGyromeanFreqX
+- fBodyGyromeanFreqY
+- fBodyGyromeanFreqZ
+- fBodyAccMagmean
+- fBodyAccMagstd
+- fBodyAccMagmeanFreq
+- fBodyBodyAccJerkMagmean
+- fBodyBodyAccJerkMagstd
+- fBodyBodyAccJerkMagmeanFreq
+- fBodyBodyGyroMagmean
+- fBodyBodyGyroMagstd
+- fBodyBodyGyroMagmeanFreq
+- fBodyBodyGyroJerkMagmean
+- fBodyBodyGyroJerkMagstd
+- fBodyBodyGyroJerkMagmeanFreq
+- activity: activity label
+- subject: experiment subject code
+
+## `means_by_subject_and_activity.txt file`
+
+> create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# Information about the variables in the RAW data set
 
 from the features_info.txt file:
 
